@@ -1,0 +1,53 @@
+/* Table.css */
+
+/* ... (Previous CSS remains unchanged) ... */
+.middle-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+/* Table.css */
+
+/* ... (Previous CSS remains unchanged) ... */
+
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.data-table {
+  flex: 1; /* Fill the available space */
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.data-table thead {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.data-table tbody td {
+  color: #555;
+}
